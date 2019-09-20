@@ -1,11 +1,11 @@
-package com.lambdaschool.school.services;
+package com.lambdaschool.school.service;
 
 import com.lambdaschool.school.exceptions.ResourceFoundException;
 import com.lambdaschool.school.exceptions.ResourceNotFoundException;
-import com.lambdaschool.school.models.Role;
-import com.lambdaschool.school.models.User;
-import com.lambdaschool.school.models.UserRoles;
-import com.lambdaschool.school.models.Useremail;
+import com.lambdaschool.school.model.Role;
+import com.lambdaschool.school.model.User;
+import com.lambdaschool.school.model.UserRoles;
+import com.lambdaschool.school.model.Useremail;
 import com.lambdaschool.school.repository.RoleRepository;
 import com.lambdaschool.school.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;

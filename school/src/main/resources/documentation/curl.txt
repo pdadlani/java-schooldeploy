@@ -1,0 +1,38 @@
+// to receive token
+curl -X POST --user "lambda-client:lambda-secret" --data "grant_type=password&username=admin&password=password" https://pdadlani-schooldeploy.herokuapp.com/login
+
+{"access_token":"5974c82c-d9d8-4c5d-929e-e1a1df76e98c","token_type":"bearer","expires_in":1179,"scope":"read write trust"}
+
+
+Course Controller
+
+// GET localhost:2019/courses/courses/?page=0&size=3
+// GET localhost:2019/courses/courses
+curl -X GET -H "Accept: application/json" -H "Authorization: Bearer 5974c82c-d9d8-4c5d-929e-e1a1df76e98c" https://pdadlani-schooldeploy.herokuapp.com/courses/courses
+
+// GET localhost:2019/courses/studcount
+curl -X GET -H "Accept: application/json" -H "Authorization: Bearer 5974c82c-d9d8-4c5d-929e-e1a1df76e98c" https://pdadlani-schooldeploy.herokuapp.com/courses/studcount
+
+// DELETE localhost:2019/courses/courses/{courseid}
+curl -X DELETE -H “Authorization: Bearer 5974c82c-d9d8-4c5d-929e-e1a1df76e98c” https://pdadlani-schooldeploy.herokuapp.com/courses/courses/1
+
+
+Student Controller
+// GET localhost:2019/students/students/?page=0&size=3
+// GET localhost:2019/students/students
+curl -X GET -H "Accept: application/json" -H "Authorization: Bearer 5974c82c-d9d8-4c5d-929e-e1a1df76e98c" https://pdadlani-schooldeploy.herokuapp.com/students/students
+
+// GET localhost:2019/students/Student/{StudentId}
+curl -X GET -H "Accept: application/json" -H "Authorization: Bearer 5974c82c-d9d8-4c5d-929e-e1a1df76e98c" https://pdadlani-schooldeploy.herokuapp.com/students/Student/1
+
+// GET localhost:2019/students/student/namelike/{name}
+curl -X GET -H "Accept: application/json" -H "Authorization: Bearer 5974c82c-d9d8-4c5d-929e-e1a1df76e98c" https://pdadlani-schooldeploy.herokuapp.com/students/student/namelike/Tyler
+
+// POST localhost:2019/students/Student
+curl -X POST -H “Content-Type: application/json” -H “Authorization: Bearer 5974c82c-d9d8-4c5d-929e-e1a1df76e98c” -d {"{\"studname\": \"Ginger\"} https://pdadlani-schooldeploy.herokuapp.com/students/Student
+
+// PUT localhost:2019/students/Student/{Studentid}
+curl -X PUT -H "Content-Type: application/json" -H "Authorization: Bearer 5974c82c-d9d8-4c5d-929e-e1a1df76e98c" -d {"{\"studname\": \"Pri\"} https://pdadlani-schooldeploy.herokuapp.com/students/Student/2
+
+// DELETE localhost:2019/students/Student/{Studentid}
+curl -X DELETE -H “Authorization: Bearer 5974c82c-d9d8-4c5d-929e-e1a1df76e98c” https://pdadlani-schooldeploy.herokuapp.com/students/Student/1

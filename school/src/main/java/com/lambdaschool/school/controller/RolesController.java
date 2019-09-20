@@ -1,7 +1,7 @@
-package com.lambdaschool.school.controllers;
+package com.lambdaschool.school.controller;
 
-import com.lambdaschool.school.models.Role;
-import com.lambdaschool.school.services.RoleService;
+import com.lambdaschool.school.model.Role;
+import com.lambdaschool.school.service.RoleService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

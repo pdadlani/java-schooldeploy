@@ -1,7 +1,7 @@
-package com.lambdaschool.school.controllers;
+package com.lambdaschool.school.controller;
 
-import com.lambdaschool.school.models.Useremail;
-import com.lambdaschool.school.services.UseremailService;
+import com.lambdaschool.school.model.Useremail;
+import com.lambdaschool.school.service.UseremailService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

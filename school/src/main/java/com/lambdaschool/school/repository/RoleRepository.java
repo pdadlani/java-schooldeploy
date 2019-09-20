@@ -1,6 +1,6 @@
 package com.lambdaschool.school.repository;
 
-import com.lambdaschool.school.models.Role;
+import com.lambdaschool.school.model.Role;
 import com.lambdaschool.school.view.JustTheCount;
 import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.data.jpa.repository.Query;

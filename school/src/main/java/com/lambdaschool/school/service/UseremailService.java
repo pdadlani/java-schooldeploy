@@ -1,6 +1,6 @@
-package com.lambdaschool.school.services;
+package com.lambdaschool.school.service;
 
-import com.lambdaschool.school.models.Useremail;
+import com.lambdaschool.school.model.Useremail;
 
 import java.util.List;
 

@@ -1,6 +1,6 @@
-package com.lambdaschool.school.services;
+package com.lambdaschool.school.service;
 
-import com.lambdaschool.school.models.Role;
+import com.lambdaschool.school.model.Role;
 
 import java.util.List;
 

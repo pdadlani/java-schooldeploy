@@ -1,4 +1,4 @@
-package com.lambdaschool.school.models;
+package com.lambdaschool.school.model;
 
 // Taken from the output of https://openlibrary.org/api/books?bibkeys=ISBN:0982477562&format=json
 // This class must match the JSON object

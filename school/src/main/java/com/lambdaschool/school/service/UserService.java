@@ -1,6 +1,6 @@
-package com.lambdaschool.school.services;
+package com.lambdaschool.school.service;
 
-import com.lambdaschool.school.models.User;
+import com.lambdaschool.school.model.User;
 import org.springframework.security.core.userdetails.UserDetails;
 
 import java.util.List;

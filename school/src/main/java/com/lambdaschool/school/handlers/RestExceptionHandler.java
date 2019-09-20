@@ -3,7 +3,7 @@ package com.lambdaschool.school.handlers;
 import com.lambdaschool.school.exceptions.ResourceFoundException;
 import com.lambdaschool.school.exceptions.ResourceNotFoundException;
 import com.lambdaschool.school.exceptions.ValidationError;
-import com.lambdaschool.school.models.ErrorDetail;
+import com.lambdaschool.school.model.ErrorDetail;
 import org.springframework.beans.TypeMismatchException;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;

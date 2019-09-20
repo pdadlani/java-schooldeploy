@@ -1,7 +1,7 @@
-package com.lambdaschool.school.services;
+package com.lambdaschool.school.service;
 
 import com.lambdaschool.school.exceptions.ResourceNotFoundException;
-import com.lambdaschool.school.models.Useremail;
+import com.lambdaschool.school.model.Useremail;
 import com.lambdaschool.school.repository.UseremailRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.Authentication;

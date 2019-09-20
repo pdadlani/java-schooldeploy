@@ -1,4 +1,4 @@
-package com.lambdaschool.school.models;
+package com.lambdaschool.school.model;
 
 
 import com.lambdaschool.school.exceptions.ValidationError;

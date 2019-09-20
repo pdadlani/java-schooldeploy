@@ -1,20 +1,18 @@
 package com.lambdaschool.school;
 
-import com.lambdaschool.school.models.Role;
-import com.lambdaschool.school.models.User;
-import com.lambdaschool.school.models.UserRoles;
-import com.lambdaschool.school.models.Useremail;
-import com.lambdaschool.school.services.RoleService;
-import com.lambdaschool.school.services.UserService;
+import com.lambdaschool.school.model.Role;
+import com.lambdaschool.school.model.User;
+import com.lambdaschool.school.model.UserRoles;
+import com.lambdaschool.school.model.Useremail;
+import com.lambdaschool.school.service.RoleService;
+import com.lambdaschool.school.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
-import org.springframework.stereotype.Component;
-import org.springframework.transaction.annotation.Transactional;
 
 import java.util.ArrayList;
 
-@Transactional
-@Component
+//@Transactional
+//@Component
 public class SeedData implements CommandLineRunner
 {
     @Autowired

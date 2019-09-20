@@ -1,6 +1,6 @@
 package com.lambdaschool.school.repository;
 
-import com.lambdaschool.school.models.Useremail;
+import com.lambdaschool.school.model.Useremail;
 import org.springframework.data.repository.CrudRepository;
 
 import java.util.List;

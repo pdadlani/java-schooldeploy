@@ -1,6 +1,6 @@
-package com.lambdaschool.school.controllers;
+package com.lambdaschool.school.controller;
 
-import com.lambdaschool.school.models.APIOpenLibrary;
+import com.lambdaschool.school.model.APIOpenLibrary;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.core.ParameterizedTypeReference;
